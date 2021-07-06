@@ -1,0 +1,18 @@
+<div class="wrapper">
+    <div class="logo">
+        <img src="../../../assets/images/greenvillelogo-email.png" alt="">
+    </div>
+    <div class="buttonWrapper">
+        <div class="buttonGroup">
+            <div class="loginButton" (click)="handleShowModalLogin()">
+                <app-button title="Login" type="black"></app-button>
+            </div>
+            <div class="signUpButton">
+                <app-button title="Sign up" type="white"></app-button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="loginPopup" *ngIf="isShowModal">
+    <app-login-popup></app-login-popup>
+</div>

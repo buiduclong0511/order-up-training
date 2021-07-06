@@ -1,0 +1,23 @@
+<div class="wrapper">
+    <div class="main">
+        <div class="heading">Login to your account</div>
+        <button class="closeBtn" (click)="handleCloseModal()">&times;</button>
+        <div class="formWrapper" [formGroup]="formLogin">
+            <div class="formGroup">
+                <input type="text" formControlName="email" placeholder="Email">
+            </div>
+            <div class="formGroup">
+                <input type="text" formControlName="password" placeholder="Password">
+            </div>
+            <div class="remember">
+                <p class="text">Remember me next time</p>
+                <input type="checkbox">
+            </div>
+            <hr>
+            <div class="buttonLogin">
+                <app-button title="Login" type="black" width="fullWidth"></app-button>
+            </div>
+            <p class="toRegister">Don't have an account yet?</p>
+        </div>
+    </div>
+</div>

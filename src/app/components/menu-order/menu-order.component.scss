@@ -1,0 +1,14 @@
+.wrapper {
+    background-color: #fff;
+    margin-left: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #a6a6ab;
+    
+    .heading {
+        padding: 1.5rem 0 0.5rem 0;
+        font-size: 22px;
+    }
+}

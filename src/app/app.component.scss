@@ -1,0 +1,31 @@
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    background-color: #FAFAFA;
+    padding: 0 15px;
+
+    .menuWrapper {
+        width: 15%;
+        min-height: 200px;
+        // background-color: #fff;
+        margin-right: 20px;
+        transform: translateY(-30px);
+        position: sticky;
+        top: 97px;
+    }
+    
+    .mainWrapper {
+        width: 55%;
+        min-height: 200px;
+        // background-color: #fff;
+        transform: translateY(-30px);
+        margin-left: 15px;
+    }
+    
+    .orderWrapper {
+        width: 21%;
+        min-height: 200px;
+        // background-color: #fff;
+        transform: translateY(-30px);
+    }
+}

@@ -1,0 +1,8 @@
+<div class="wrapper">
+    <h3 class="heading">GOLDILOCKS DELIVERY</h3>
+    <div class="listItem row">
+        <div class="item col l-3" *ngFor="let product of products">
+            <app-product-item [data]="product"></app-product-item>
+        </div>
+    </div>
+</div>

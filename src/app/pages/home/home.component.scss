@@ -1,0 +1,56 @@
+.wrapper {
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 0 16px;
+
+    .filterWrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .filter {
+        display: flex;
+        padding: 16px 0;
+        align-items: center;
+
+        .heading {
+            color: #a6a6ab;
+            text-transform: uppercase;
+            margin-right: 15px;
+        }
+
+        .listFilterItem {
+            display: flex;
+            list-style: none;
+
+            li {
+                margin: 0 5px;
+                border-radius: 50%;
+                background-color: #EFEFF4;
+                width: 45px;
+                height: 45px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            svg {
+                width: 30px;
+            }
+        }
+    }
+
+    .searchBox {
+        display: flex;
+        background-color: #EFEFF4;
+        padding: .5rem 1rem;
+        border-radius: 25px;
+
+        input {
+            background-color: transparent;
+            border: none;
+            outline: none;
+        }
+    }
+}
